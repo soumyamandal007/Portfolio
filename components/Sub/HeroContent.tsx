@@ -18,13 +18,13 @@ const HeroContent = () => {
             className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
             >
                 <SparklesIcon className="text-[#b49bff] mr-[10px] h-10 w-10" />
-                <h1 className="Welcome-text text-[20px]">
+                <h1 className="Welcome-text text-[15px]">
                 Fullstack Developer Portfolio
                 </h1>
             </motion.div>
             <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-4xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
             Hi, I am 
@@ -55,8 +55,8 @@ const HeroContent = () => {
         <Image
           src="/mainIconsdark.svg"
           alt="work icons"
-          height={650}
-          width={650}
+          height={400}
+          width={400}
         />
       </motion.div>
     </motion.div>
